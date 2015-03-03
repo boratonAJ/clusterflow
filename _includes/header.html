@@ -7,8 +7,8 @@
 	<title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
 	<meta name="description" content="{{site.description}}"/>
 	<meta name="author" content="{{site.author}}"/>
-	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico"> 
-	
+	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+
 	<!-- Bootstrap and Google Fonts -->
 	<link href="{{ site.baseurl }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
@@ -18,7 +18,7 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	
+
 	<!-- Site Stylesheet -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/style.css">
 </head>
@@ -46,11 +46,12 @@
 		</ul>
 	</nav>
 	<section class="credits">
+		<p>Viewing v{{ site.docs_version }} of the docs. <a href="http://clusterflow.io/docs_versions">Other versions</a>.</p>
 		<p>Cluster Flow was written by <a href="http://phil.ewels.co.uk" target="_blank">Phil Ewels</a> whilst working at the <a href="http://www.babraham.ac.uk" target="_blank">Babraham Institute</a>. He now maintains it from <a href="http://www.scilifelab.se" target="_blank">SciLifeLab</a> in Stockholm, Sweden.</p>
 		<p class="logos">
 			<a href="http://www.babraham.ac.uk" target="_blank"><img src="{{ site.baseurl }}/resources/img/Babraham_logo.png" title="Babraham Institute"></a>
 			<a href="http://www.scilifelab.se" target="_blank"><img src="{{ site.baseurl }}/resources/img/SciLifeLab_logo.png" title="SciLifeLab"></a>
 		</p>
-		<p>This documentation is written using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and hosted using <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+		<p>This documentation is written using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
 	</section>
 </header>
