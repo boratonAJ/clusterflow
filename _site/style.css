@@ -23,8 +23,12 @@ header .logo {
 	margin-top:20px;
 	padding:10px 20px;
 }
-header .logo h1{
-	text-align:center;	
+header .logo a {
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	margin: 20px 0 10px;
+	font-size: 36px;
 }
 header .download {
 	padding:0 20px;
@@ -138,7 +142,7 @@ footer .credits {
 	font-size:16px;
 }
 .mainpage-toc {
-	margin-right:250px;	
+	margin-right:250px;
 }
 
 @media (max-width:1200px){
@@ -174,7 +178,7 @@ footer .credits {
 
 
 
-.page-title {
+h1 {
 	font-size:3.6em;
 	border-bottom:1px solid #666;
 	margin-bottom:30px;
